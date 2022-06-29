@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "Hash": "kQ8KrB+2vejp2S2CCStYXU4pk3DPh8so0bloTrHq1z4=",
+  "Source": "Restaurant",
+  "BasePath": "_content/Restaurant",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Restaurant\\wwwroot",
+      "Source": "Restaurant",
+      "ContentRoot": "D:\\CoursEPSI\\.net\\projet\\TodoApiGit\\Restaurant\\wwwroot\\",
+      "BasePath": "_content/Restaurant",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\CoursEPSI\\.net\\projet\\TodoApiGit\\Restaurant\\wwwroot\\css\\style.css",
+      "SourceId": "Restaurant",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\CoursEPSI\\.net\\projet\\TodoApiGit\\Restaurant\\wwwroot\\",
+      "BasePath": "_content/Restaurant",
+      "RelativePath": "css/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
+    },
+    {
+      "Identity": "D:\\CoursEPSI\\.net\\projet\\TodoApiGit\\Restaurant\\wwwroot\\index.html",
+      "SourceId": "Restaurant",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\CoursEPSI\\.net\\projet\\TodoApiGit\\Restaurant\\wwwroot\\",
+      "BasePath": "_content/Restaurant",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "D:\\CoursEPSI\\.net\\projet\\TodoApiGit\\Restaurant\\wwwroot\\js\\script.js",
+      "SourceId": "Restaurant",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\CoursEPSI\\.net\\projet\\TodoApiGit\\Restaurant\\wwwroot\\",
+      "BasePath": "_content/Restaurant",
+      "RelativePath": "js/script.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\script.js"
+    }
+  ]
+}

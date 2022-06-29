@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Restaurant</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<h1>Restaurant</h1>
+<h3>Ajouter une commande</h3>
+<form action="javascript:void(0);" method="POST" onsubmit="addItem()">
+    <input type="text" id="entree" placeholder="Entrée">
+    <input type="text" id="plat" placeholder="Plat">
+    <input type="text" id="dessert" placeholder="Dessert">
+    <input type="text" id="boisson" placeholder="Boisson">
+    <input type="submit" value="Valider la commande">
+</form>
+
+
+
+<p id="counter"></p>
+
+<table>
+    <tr>
+        <th>Commande</th>
+        <th>Entrée</th>
+        <th>Plat</th>
+        <th>Dessert</th>
+        <th>Boisson</th>
+        <th>Modifier</th>
+    </tr>
+    <tbody id="todos"></tbody>
+</table>
+
+<script src="js/script.js" asp-append-version="true"></script>
+<script type="text/javascript">
+    getItems();
+</script>
+</body>
+</html>
